@@ -160,15 +160,6 @@ ul.centered-list {
   padding: 5px 20px;
 }
 
-.quote {
-  font-family: "Audiowide", sans-serif;
-  font-size: 2.0em !important;
-  color: var(--text-muted);
-  text-align: center;
-  margin: 220px auto 100px auto;
-  width: 70%;
-}
-
 .flex-row {
   display: flex;
   flex-direction: row;
@@ -178,6 +169,27 @@ ul.centered-list {
 .half-col {
   width: 40%;
   padding: 0 20px;
+}
+
+#news {
+  background-color: var(--buttoncolor);
+  font-size: 120%;
+  text-align: center;
+  margin: 140px auto 0px auto;
+}
+
+#news a {
+  text-decoration: none;
+}
+
+#quote {
+  font-family: "Audiowide", sans-serif;
+  font-size: 2.0em !important;
+  color: var(--text-muted);
+  text-align: center;
+  /* if top of the page: margin: 220px auto 100px auto; */
+  margin: 100px auto 100px auto;
+  width: 70%;
 }
 
 #about {
