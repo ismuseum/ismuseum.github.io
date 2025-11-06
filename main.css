@@ -256,7 +256,7 @@ ul.cards {
   overflow: auto;
 }
 .cards > li {
-  width: 30%;
+  width: 25%;
   min-width: 225px;
   background-color: var(--alt-bg);
 }
