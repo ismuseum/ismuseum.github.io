@@ -69,6 +69,10 @@ header, footer {
   text-align: center;
 }
 
+main h1 {
+  padding: 0 20px;
+}
+
 .brand {
   display: flex;
   align-items: center;
