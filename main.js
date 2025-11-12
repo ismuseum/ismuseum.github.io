@@ -4,6 +4,11 @@ $(document).ready(function() {
   $('.menu-btn').click(function() {
     $('.menu-list').toggleClass("show");
   });
+  // Expand paragraph when clicking the prompt ("Learn more.").
+  $('.prompt').click(function() {
+    $('.toexpand').toggleClass("show");
+  });
+
 
   // Open external links in new tab.
   $('a[href^="http"]').attr('target','_blank').attr('rel','noopener noreferrer');

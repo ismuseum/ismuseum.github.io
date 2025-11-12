@@ -64,7 +64,11 @@
 
       <div class="subsection" id="prereqs">
         <h2>PREREQUISITES</h2>
-        <p>You must be a member of the <a rel="nofollow" target="_blank" href="http://world.secondlife.com/group/bd48e577-1be4-86c4-f4d5-c33c23b704f7">Spaceflight Museum Planning Group</a>.</p>
+        <ul>
+          <li>You must be a member of the <a rel="nofollow" target="_blank" href="http://world.secondlife.com/group/bd48e577-1be4-86c4-f4d5-c33c23b704f7">Spaceflight Museum Planning Group</a>.</li>
+          <li>You must be a member of <a rel="nofollow" target="_blank" href="https://github.com/ismuseum">the ismuseum org in GitHub</a>.</li>
+          <li>You must be a member of <a rel="nofollow" target="_blank" href="http://ism-writeups.wikidot.com/">the appropriate exhibit wiki</a>.</li>
+        </ul>
       </div>
 
 
@@ -80,7 +84,49 @@
               <li>Rez the completed object at the agreed-upon location.</li>
               <li>Set the object's group to <a rel="nofollow" target="_blank" href="http://world.secondlife.com/group/bd48e577-1be4-86c4-f4d5-c33c23b704f7">Spaceflight Museum Planning Group</a>.</li>
               <li>Check the "Share" checkbox, so any group member can move or modify the object(s).</li>
-              <li>Create an exhibit sign and rez it next to the new exhibit.</li>
+              <li>Create an exhibit sign and rez it next to the new exhibit.<button class="prompt">Learn how.</button>
+                <ul class="toexpand">
+                  <li>Get a copy of the exhibit sign object at .... The exhibit sign will contain the script.</li>
+                  <li>Create the exhibit sign texture.
+                    <ul>
+                      <li>Copy <a rel="nofollow" target="_blank" href="https://github.com/ismuseum/images/blob/textures/textures/exhibit-signs/template_ISM_exhibit_sign.xcf">the Gimp template from GitHub></a>.</li>
+                      <li>Modify the .xcf file with the appropriate exhibit name and creator(s).</li>
+                      <li>Save the .xcf file as <code>ISM_<emphasis>exhibit name</emphasis>.xcf</code>.</li>
+                      <li>Export the .xcf file into an <code>ISM_<emphasis>exhibit name</emphasis>_blank.png</code> file.</li>
+                      <li>Check the .xcf file into <a rel="nofollow" target="_blank" href="https://github.com/ismuseum/images/tree/textures/textures/exhibit-signs/xcf">the GitHub xcf folder</a>.</li>
+                      <li>Check the .png file into <a rel="nofollow" target="_blank" href="https://github.com/ismuseum/images/tree/textures/textures/exhibit-signs/png">the GitHub png folder</a>.</li>
+                      <li>Import the .png file into Second Life.</li>
+                      <li>Add the texture into the inventory of the exhibit sign object. The script will apply the texture to the appropriate side of the object.</li>
+                    </ul>
+                  </li>
+                  <li>Create the wiki pages.
+                    <p>To be done by an admin:</p>
+                    <ul>
+                      <li>Go to <a rel="nofollow" target="_blank" href="http://ism-exhibits.wikidot.com/exhibitlist">the ism-exhibits wiki in wikidot.com</a>.</li>
+                      <li>Under <code>Add a new page</code>, enter the name <code>ISM exhibit: <emphasis>exhibit name</emphasis></code>. Click <code>new page</code>.</li>
+                      <li>For <code>Initial content:</code>, choose <code>template - ISM exhibit: //Exhibit Name//</code>.</li>
+                      <li>Fill in the fields: <code>Locations</code>, <code>Exhibit creator(s)</code>.
+                        <ul>
+                          <li>Under <code>Sponsorship history</code>, enter <code>None.</code></li>
+                          <li>In the entire field, replace <code>abc</code> with the name of the exhibit.</li>
+                        </ul>
+                      </li>
+                      <li>Save.</li>
+                      <li>Copy the URL of the page and provide it to the exhibit creator.</li>
+                    </ul>
+                    <p>To be done by the exhibit creator:</p>
+                    <ul>
+                      <li>Add the URL of the page to the description of the exhibit sign in Second Life.</li>
+                      <li>In the new page, click on one of the language pages (de, es, fr, it, ja). You will be prompted to create the file.</li>
+                      <li>Choose the correct template for that language.</li>
+                      <li>Fill in the fields.</li>
+                      <li>Repeat for the other supported languages.</li>
+                      <li>Save.</li>
+                    </ul>
+                  </li>
+                  <li>Rez the object next to the exhibit. Check the "Share" checkbox.</li>
+                </ul>
+              </li>
             </ul>
 
         <h3>Modifying Objects</h3>
