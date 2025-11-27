@@ -175,11 +175,15 @@ ul.centered-list {
   padding: 0 20px;
 }
 
+.main {
+  margin-top: 118px;
+}
+
 #news {
   background-color: var(--buttoncolor);
   font-size: 120%;
   text-align: center;
-  margin: 140px auto 0px auto;
+  margin: 0px auto 0px auto;
 }
 
 #news a {
@@ -210,6 +214,11 @@ ul.centered-list {
 #get-involved {
   background-color: #555555;
   background: linear-gradient(0deg,rgba(58, 84, 180, 0.75) 0%, rgba(0, 0, 0, 0.75) 50%, rgba(58, 84, 180, 0.75) 100%);
+}
+
+#guide {
+  max-width: 768px;
+  margin: 20px auto 20px auto;
 }
 
 
