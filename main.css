@@ -216,6 +216,7 @@ ul.centered-list {
   background: linear-gradient(0deg,rgba(58, 84, 180, 0.75) 0%, rgba(0, 0, 0, 0.75) 50%, rgba(58, 84, 180, 0.75) 100%);
 }
 
+.indented,
 #guide {
   max-width: 768px;
   margin: 20px auto 20px auto;
