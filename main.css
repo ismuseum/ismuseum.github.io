@@ -204,16 +204,19 @@ ul.centered-list {
   background-image: url("img/20250707IsmBlueDetailedOnPinkBlueFog.jpg");
   background-size: 100%;
   background-repeat: repeat-y;  /* no-repeat */
+  scroll-margin-top: 100px;
 }
 
 #events {
   background-color: #555555;
   background: linear-gradient(90deg,rgba(58, 84, 180, 0.75) 0%, rgba(0, 0, 0, 0.75) 50%, rgba(58, 84, 180, 0.75) 100%);
+  scroll-margin-top: 100px;
 }
 
 #get-involved {
   background-color: #555555;
   background: linear-gradient(0deg,rgba(58, 84, 180, 0.75) 0%, rgba(0, 0, 0, 0.75) 50%, rgba(58, 84, 180, 0.75) 100%);
+  scroll-margin-top: 100px;
 }
 
 .indented,
