@@ -1,4 +1,12 @@
 
+function scrollToSection(sectionId) {
+  const element = document.getElementById(sectionId);
+  if (element) {
+    element.scrollIntoView({ behavior: 'smooth' });
+  }
+}
+
+
 $(document).ready(function() {
   // Expand menu when clicking hamburger icon.
   $('.menu-btn').click(function() {
@@ -34,5 +42,19 @@ $(document).ready(function() {
       }
     }
   });
+});
 
+
+// Check the URL for a hash on page load
+window.addEventListener('DOMContentLoaded', () => {
+  // window.location.hash returns the string including '#', like '#my-section'
+  // .substring(1) removes the '#' to get just the ID string
+  const hashId = window.location.hash.substring(1);
+
+  if (hashId) {
+    // Optional timeout ensures the browser finished rendering layout
+    setTimeout(() => {
+      scrollToSection(hashId);
+    }, 100);
+  }
 });
